@@ -74,12 +74,29 @@ for key, value in sorted(hours.items(), None):
 # and see how letter frequency varies between languages.
 # Compare your results with the tables at https://wikipedia.org/wiki/Letter_frequencies.
 
+import string
 prompt = 'Enter the file name: '
 fname = input(prompt)
 fhand = open(fname)
-no_digits = list()
+count = dict()
+count_num = 0
+lst = list()
 for line in fhand:
-    first_move = line.rstrip().split()
-
+    line = line.translate(str.maketrans('', '', string.digits))#除去了所有数字
+    #可以直接调用string的库Python translate() 方法根据参数table给出的表(包含 256 个字符)转换字符串的字符,
+    # 要过滤掉的字符放到 del 参数中。table -- 翻译表，翻译表是通过maketrans方法转换而来。
+    # deletechars -- 字符串中要过滤的字符列表。后面补一个if语句的遍历去除法
+    line = line.translate(str.maketrans('', '', string.punctuation))#除去了标点字符
+    line = line.translate(str.maketrans('', '', string.whitespace))
+    words = line.lower().rstrip().split()
+    for word in words:
+        for letter in word:
+            count_num = count_num + 1
+            count[letter] = count.get(letter, 0) + 1
+for key, value in list(count.items()):
+    lst.append((value / count_num, key))
+lst.sort(reverse=True)
+for key, value in lst:
+    print(value, key)
 
 #难点在于如何处理数据，让其只有a-z
