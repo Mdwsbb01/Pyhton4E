@@ -11,10 +11,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py4e_ex_chap10Tuples.py">
+        <entry file="file://$PROJECT_DIR$/py4e_ex_chap11RegularExpress.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="325">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py4e_ex_chap9Dic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
             </state>
           </provider>
         </entry>
@@ -36,6 +45,9 @@
       <list>
         <option value="$PROJECT_DIR$/py4e_ex_chap9Dic.py" />
         <option value="$PROJECT_DIR$/py4e_ex_chap10Tuples.py" />
+        <option value="$PROJECT_DIR$/Py4E_data/py4e_ex_chap11RegularExpre.py" />
+        <option value="$PROJECT_DIR$/py4e_ex_chap10RegularExpress.py" />
+        <option value="$PROJECT_DIR$/py4e_ex_chap11RegularExpress.py" />
       </list>
     </option>
   </component>
@@ -56,6 +68,11 @@
             <path>
               <item name="Python4E" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python4E" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python4E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python4E" type="462c0819:PsiDirectoryNode" />
+              <item name="Py4E_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -84,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.py4e_ex_chap10Tuples">
+  <component name="RunManager" selected="Python.py4e_ex_chap11RegularExpress">
     <configuration name="py4e_ex_chap10Tuples" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python4E" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,6 +116,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py4e_ex_chap10Tuples.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="py4e_ex_chap11RegularExpress" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python4E" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py4e_ex_chap11RegularExpress.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,8 +192,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.py4e_ex_chap10Tuples" />
+        <item itemvalue="Python.py4e_ex_chap11RegularExpress" />
         <item itemvalue="Python.py4e_ex_chap9Dic" />
+        <item itemvalue="Python.py4e_ex_chap10Tuples" />
         <item itemvalue="Python.py4e_ex_chapter6" />
       </list>
     </recent_temporary>
@@ -173,12 +213,14 @@
       <workItem from="1595062148576" duration="2382000" />
       <workItem from="1595231068220" duration="15157000" />
       <workItem from="1595332774534" duration="11700000" />
-      <workItem from="1595423324040" duration="2363000" />
+      <workItem from="1595423324040" duration="3121000" />
+      <workItem from="1595501133044" duration="256000" />
+      <workItem from="1595593743157" duration="5538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33008000" />
+    <option name="totallyTimeSpent" value="39560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -193,7 +235,7 @@
     <frame x="924" y="5" width="981" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08232711" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.041712403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -222,9 +264,10 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python4E$py4e_ex_chap10Tuples.coverage" NAME="py4e_ex_chap10Tuples Coverage Results" MODIFIED="1595425680395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python4E$py4e_ex_chap10Tuples.coverage" NAME="py4e_ex_chap10Tuples Coverage Results" MODIFIED="1595594113889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python4E$py4e_ex_chapter6.coverage" NAME="py4e_ex_chapter6 Coverage Results" MODIFIED="1595245009388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python4E$py4e_ex_chap9Dic.coverage" NAME="py4e_ex_chap9Dic Coverage Results" MODIFIED="1595245469340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python4E$py4e_ex_chap9Dic.coverage" NAME="py4e_ex_chap9Dic Coverage Results" MODIFIED="1595598712735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python4E$py4e_ex_chap11RegularExpress.coverage" NAME="py4e_ex_chap11RegularExpress Coverage Results" MODIFIED="1595599274224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/py4e_ex_chap8Lists.py">
@@ -249,17 +292,25 @@
         <state relative-caret-position="-676" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py4e_ex_chap9Dic.py">
+    <entry file="file://$PROJECT_DIR$/py4e_ex_chap10Tuples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1557">
-          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+        <state relative-caret-position="214">
+          <caret line="101" column="3" selection-start-line="101" selection-start-column="3" selection-end-line="101" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py4e_ex_chap10Tuples.py">
+    <entry file="file://$PROJECT_DIR$/Py4E_data/py4e_ex_chap11RegularExpre.py" />
+    <entry file="file://$PROJECT_DIR$/py4e_ex_chap9Dic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="482">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py4e_ex_chap11RegularExpress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>

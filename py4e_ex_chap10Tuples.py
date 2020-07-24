@@ -73,7 +73,7 @@ for key, value in sorted(hours.items(), None):
 # Find text samples from several different languages
 # and see how letter frequency varies between languages.
 # Compare your results with the tables at https://wikipedia.org/wiki/Letter_frequencies.
-
+'''
 import string
 prompt = 'Enter the file name: '
 fname = input(prompt)
@@ -98,5 +98,13 @@ for key, value in list(count.items()):
 lst.sort(reverse=True)
 for key, value in lst:
     print(value, key)
-
 #难点在于如何处理数据，让其只有a-z
+'''
+#Method_2:
+
+prompt = 'Enter the file name: '
+fname = input(prompt)
+fhand = open(fname)
+count = dict()
+count_num = 0
+lst = list()
