@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py4e_ex_chap12HTTP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="487">
+              <caret line="149" column="39" lean-forward="true" selection-start-line="149" selection-start-column="39" selection-end-line="149" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -53,15 +53,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="978" />
+    <option name="x" value="840" />
+    <option name="y" value="27" />
     <option name="width" value="949" />
-    <option name="height" value="1087" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,7 +80,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,12 +242,13 @@
       <workItem from="1595593743157" duration="5998000" />
       <workItem from="1595771015541" duration="4816000" />
       <workItem from="1595854073362" duration="1293000" />
-      <workItem from="1595932243929" duration="6615000" />
+      <workItem from="1595932243929" duration="7355000" />
+      <workItem from="1596019578078" duration="9701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52744000" />
+    <option name="totallyTimeSpent" value="63185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -258,15 +260,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="978" y="0" width="949" height="1087" extended-state="0" />
+    <frame x="840" y="27" width="949" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04778157" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.048919227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32901832" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32901832" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.399137" />
@@ -292,7 +294,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python4E$py4e_ex_chap10Tuples.coverage" NAME="py4e_ex_chap10Tuples Coverage Results" MODIFIED="1595594113889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python4E$py4e_ex_chapter6.coverage" NAME="py4e_ex_chapter6 Coverage Results" MODIFIED="1595245009388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python4E$py4e_ex_chap12HTTP.coverage" NAME="py4e_ex_chap12HTTP Coverage Results" MODIFIED="1595945877728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python4E$py4e_ex_chap12HTTP.coverage" NAME="py4e_ex_chap12HTTP Coverage Results" MODIFIED="1596037993649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python4E$py4e_ex_chap9Dic.coverage" NAME="py4e_ex_chap9Dic Coverage Results" MODIFIED="1595598712735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python4E$py4e_ex_chap11RegularExpress.coverage" NAME="py4e_ex_chap11RegularExpress Coverage Results" MODIFIED="1595599274224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -334,17 +336,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py4e_ex_chap12HTTP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="149" column="39" lean-forward="true" selection-start-line="149" selection-start-column="39" selection-end-line="149" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py4e_ex_chap9Dic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1786">
           <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py4e_ex_chap12HTTP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
